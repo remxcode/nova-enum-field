@@ -1,21 +1,21 @@
 # An enum field for Laravel Nova
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/simplesquid/nova-enum-field.svg?style=flat-square)](https://packagist.org/packages/simplesquid/nova-enum-field)
-[![Tests](https://github.com/simplesquid/nova-enum-field/actions/workflows/run-tests.yml/badge.svg)](https://github.com/simplesquid/nova-enum-field/actions/workflows/run-tests.yml)
-[![Code styling](https://github.com/simplesquid/nova-enum-field/actions/workflows/code-style.yml/badge.svg)](https://github.com/simplesquid/nova-enum-field/actions/workflows/code-style.yml)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/remxcode/nova-enum-field.svg?style=flat-square)](https://packagist.org/packages/remxcode/nova-enum-field)
+[![Tests](https://github.com/remxcode/nova-enum-field/actions/workflows/run-tests.yml/badge.svg)](https://github.com/remxcode/nova-enum-field/actions/workflows/run-tests.yml)
+[![Code styling](https://github.com/remxcode/nova-enum-field/actions/workflows/code-style.yml/badge.svg)](https://github.com/remxcode/nova-enum-field/actions/workflows/code-style.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/simplesquid/nova-enum-field.svg?style=flat-square)](https://packagist.org/packages/simplesquid/nova-enum-field)
+[![Total Downloads](https://img.shields.io/packagist/dt/remxcode/nova-enum-field.svg?style=flat-square)](https://packagist.org/packages/remxcode/nova-enum-field)
 
 Laravel Nova field to add enums to resources. This field uses the [BenSampo/laravel-enum](https://github.com/BenSampo/laravel-enum) package, so make sure to check out the installation instructions there first.
 
-![Screenshot of the enum field](https://github.com/simplesquid/nova-enum-field/raw/main/docs/screenshot.png)
+![Screenshot of the enum field](https://github.com/remxcode/nova-enum-field/raw/main/docs/screenshot.png)
 
 ## Installation
 
 You can install this package in a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require simplesquid/nova-enum-field
+composer require remxcode/nova-enum-field
 ```
 
 ## Setup

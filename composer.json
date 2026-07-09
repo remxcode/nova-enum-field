@@ -1,5 +1,5 @@
 {
-    "name": "simplesquid/nova-enum-field",
+    "name": "remxcode/nova-enum-field",
     "description": "A Laravel Nova field to add enums to resources.",
     "license": "MIT",
     "keywords": [
@@ -18,11 +18,15 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/simplesquid/nova-enum-field",
+    "homepage": "https://github.com/remxcode/nova-enum-field",
+    "support": {
+        "issues": "https://github.com/remxcode/nova-enum-field/issues",
+        "source": "https://github.com/remxcode/nova-enum-field"
+    },
     "require": {
         "php": "^8.2",
         "bensampo/laravel-enum": "^5.0 || ^6.0",
-        "illuminate/support": "^11.0 || ^12.0",
+        "illuminate/support": "^11.0 || ^12.0 || ^13.0",
         "laravel/nova": "^4.0 || ^5.0"
     },
     "require-dev": {
@@ -30,10 +34,9 @@
         "laravel/pint": "^1.13",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
-        "orchestra/testbench": "^9.0 || ^10.0",
-        "phpunit/phpunit": "^11.5.3",
-        "quotevelocity/novaunit": "^4.0 || ^5.0",
-        "symfony/var-dumper": "^7.0"
+        "orchestra/testbench": "^9.0 || ^10.0 || ^11.0",
+        "phpunit/phpunit": "^11.5.3 || ^12.0",
+        "symfony/var-dumper": "^7.0 || ^8.0"
     },
     "repositories": [
         {
@@ -49,6 +52,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "JoshGaber\\NovaUnit\\": "tests/NovaUnit/",
             "SimpleSquid\\Nova\\Fields\\Enum\\Tests\\": "tests"
         }
     },
